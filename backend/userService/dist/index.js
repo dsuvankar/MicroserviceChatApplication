@@ -18,6 +18,7 @@ redisClient
     .catch(console.error);
 const app = express();
 const port = process.env.PORT;
+console.log("eyyy");
 app.listen(port, () => {
     console.log(`server is running at ${port}`);
 });
